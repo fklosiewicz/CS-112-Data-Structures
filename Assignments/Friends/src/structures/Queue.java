@@ -5,16 +5,12 @@ import java.util.NoSuchElementException;
 /**
  * A generic queue implementation.
  * 
- * @author RU-NB-CS 112
- *
- * @param <T> Parameter type for items in the stack.
  */
 public class Queue<T> {
 	
 	/**
 	 * Node used for queue's linked list
 	 * 
-	 * @param <E> Parameter type for items in the queue
 	 */
 	static class Node<E> {
 		E data; 
